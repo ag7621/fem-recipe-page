@@ -1,0 +1,21 @@
+:root {
+
+    /* colors */
+    --nutmeg: hsl(14, 45%, 36%);
+    --dk-raspberry: hsl(332, 51%, 32%);
+
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --lt-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dk-charcoal: hsl(24, 5%, 18%);
+
+    /* font size */
+    --fs-400: 1rem;
+
+    /* font weight */
+    --fw-regular: 400;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+}
