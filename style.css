@@ -14,6 +14,7 @@
     /* components */
     --clr-background-primary: var(--eggshell);
     --clr-heading-primary: var(--nutmeg);
+    --clr-title-primary: var(--dk-charcoal);
 
     --clr-prep-background: var(--rose-white);
     --clr-prep-heading: var(--dk-raspberry);
@@ -21,6 +22,7 @@
 
     /* font size */
     --fs-400: 1rem;
+    --fs-800: 2.5rem;
 
     /* font weight */
     --fw-regular: 400;
@@ -72,6 +74,12 @@ h2 {
     font-family: 'Young Serif', serif;
 }
 
+h1 {
+    color: var(--clr-title-primary);
+    margin: 1.5rem 0 1rem;
+    font-size: var(--fs-800);
+}
+
 h2 {
     color: var(--clr-heading-primary);
 }
@@ -101,7 +109,9 @@ article {
 
 .card--prep {
     background-color: var(--clr-prep-background);
-    ;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    line-height: 2;
 }
 
 .card--prep h3 {
