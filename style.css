@@ -82,6 +82,13 @@ h1 {
 
 h2 {
     color: var(--clr-heading-primary);
+    margin: 1rem 0;
+    font-size: 28px;
+    font-weight: var(--fw-regular);
+}
+
+li {
+    line-height: 2;
 }
 
 body {
